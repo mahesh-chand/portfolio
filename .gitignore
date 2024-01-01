@@ -34,7 +34,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# ignore specific files
-/public/Mahesh.pdf
-/public/demo.docx
