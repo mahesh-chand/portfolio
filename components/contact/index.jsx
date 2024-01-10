@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
       </div>
       <section className="md:flex justify-center">
-        <div className="container px-[76px] md:flex gap-1 w-full">
+        <div className="md:container md:px-[76px] md:flex gap-1 w-full">
           <div className="md:w-[33.333%]">
             <div className="pr-4">
               <h2 className="text-[26px] font-bold text-[#666]">DON&quot;T BE SHY !</h2>

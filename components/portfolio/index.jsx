@@ -4,7 +4,7 @@ const Portfolio = () => {
     return (
         <Layout>
             <div>
-                <div className="px-[8.5rem] py-16 bg-gray-50">
+                <div className="md:px-[8.5rem] py-16 bg-gray-50">
                     <div className="mb-4 flex justify-center">
                         <h1 className="text-[3.5rem] font-extrabold text-[#666] pt-[0.2rem] mb-[3.8rem]">MY <span className="text-[#72b626]">PORTFOLIO</span></h1>
                     </div>

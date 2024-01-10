@@ -26,14 +26,14 @@ const Resume = () => {
                 </div>
             </div>
             <section className='md:flex justify-center'>
-                <div className='container px-[70px]'>
+                <div className='md:container md:px-[70px]'>
                     <div className='row md:flex'>
                         <div className="col-12 col-lg-5 col-xl-6 md:w-[50%] px-[15px]">
                             <div className="row">
                                 <div className="col-12">
                                     <h3 className="uppercase text-[#666] text-[26px] pb-[22px] font-semibold">personal infos</h3>
                                 </div>
-                                <div className='flex sm:gap-9'>
+                                <div className='md:flex'>
                                     <div className="col-6 md:w-[50%]">
                                         <ul className="font-sans mb-[1rem] text-[16px]">
                                             <li className='mb-[20px]'> <span className="capitalize text-gray-400">first name :</span> <span className="font-semibold text-[#666]">Mahesh Chand</span> </li>
@@ -62,7 +62,7 @@ const Resume = () => {
                             </div>
                         </div>
                         <div className="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0 md:pl-[45px] relative">
-                            <div className="row grid grid-cols-2">
+                            <div className="row grid md:grid-cols-2">
                                 <div className="col-6 px-[15px]">
                                     <div className="border-[1px] border-[#ddd] rounded-lg pt-[20px] pb-[25px] pl-[40px] pr-[30px] mb-[30px]">
                                         <h3 className="text-[#72b626] text-[50px] font-bold inline-block poppins-font relative">2<sup>+</sup></h3>
@@ -97,13 +97,13 @@ const Resume = () => {
                         <div className="col-12 px-[15px] flex justify-center text-[#666]">
                             <h3 className="uppercase text-[26px] font-semibold pb-[3rem] mb-0 text-left text-sm-center custom-title ft-wt-600">MY SKILLS</h3>
                         </div>
-                        <div className='grid md:grid-cols-2 gap-x-20 gap-y-10 pr-4'>
+                        <div className='grid md:grid-cols-2 md:gap-x-20 gap-y-10 md:pr-4'>
                             <div>
                                 <div className='pb-3'>
                                     <span className='text-[20px] font-semibold text-gray-700 py-[2px] px-[20px] mb-[10px] rounded-[20px] font-semibold bg-[#eee]'>Front-end & UI</span>
                                 </div>
                                 <div className='border-[1px] border-gray-300 rounded-xl'>
-                                    <ul className='px-6 py-4 leading-[2rem] grid grid-cols-2 gap-x-6'>
+                                    <ul className='px-6 py-4 leading-[2rem] grid grid-cols-2 md:gap-x-6'>
                                         <li className='flex items-center gap-2'><FaReact />HTML and CSS</li>
                                         <li className='flex items-center gap-2'><FaReact />Bootstrap</li>
                                         <li className='flex items-center gap-2'><FaReact />Tailwind CSS</li>
