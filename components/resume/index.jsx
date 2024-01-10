@@ -25,19 +25,16 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <section className='flex justify-center'>
+            <section className='md:flex justify-center'>
                 <div className='container px-[70px]'>
-                    <div className='row flex'>
-                        <div className="col-12 col-lg-5 col-xl-6 w-[50%] px-[15px]">
+                    <div className='row md:flex'>
+                        <div className="col-12 col-lg-5 col-xl-6 md:w-[50%] px-[15px]">
                             <div className="row">
                                 <div className="col-12">
                                     <h3 className="uppercase text-[#666] text-[26px] pb-[22px] font-semibold">personal infos</h3>
                                 </div>
-                                <div className="col-12 d-block d-sm-none">
-                                    {/* <img src="img/img-mobile-light.jpg" className="img-fluid main-img-mobile" alt="my picture" /> */}
-                                </div>
-                                <div className='flex'>
-                                    <div className="col-6 w-[50%]">
+                                <div className='flex sm:gap-9'>
+                                    <div className="col-6 md:w-[50%]">
                                         <ul className="font-sans mb-[1rem] text-[16px]">
                                             <li className='mb-[20px]'> <span className="capitalize text-gray-400">first name :</span> <span className="font-semibold text-[#666]">Mahesh Chand</span> </li>
                                             <li className='mb-[20px]'> <span className="capitalize text-gray-400">last name :</span> <span className="font-semibold text-[#666]">Prajapat</span> </li>
@@ -64,7 +61,7 @@ const Resume = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0 pl-[45px] relative">
+                        <div className="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0 md:pl-[45px] relative">
                             <div className="row grid grid-cols-2">
                                 <div className="col-6 px-[15px]">
                                     <div className="border-[1px] border-[#ddd] rounded-lg pt-[20px] pb-[25px] pl-[40px] pr-[30px] mb-[30px]">
@@ -100,7 +97,7 @@ const Resume = () => {
                         <div className="col-12 px-[15px] flex justify-center text-[#666]">
                             <h3 className="uppercase text-[26px] font-semibold pb-[3rem] mb-0 text-left text-sm-center custom-title ft-wt-600">MY SKILLS</h3>
                         </div>
-                        <div className='grid grid-cols-2 gap-x-20 gap-y-10 pr-4'>
+                        <div className='grid md:grid-cols-2 gap-x-20 gap-y-10 pr-4'>
                             <div>
                                 <div className='pb-3'>
                                     <span className='text-[20px] font-semibold text-gray-700 py-[2px] px-[20px] mb-[10px] rounded-[20px] font-semibold bg-[#eee]'>Front-end & UI</span>
@@ -130,7 +127,7 @@ const Resume = () => {
                             </div>
                             <div>
                                 <div className='pb-3'>
-                                    <span className='text-[20px] font-semibold text-gray-700 py-[2px] px-[20px] mb-[10px] rounded-[20px] font-semibold bg-[#eee]'>Backend and Database (Managed & Unmanaged)</span>
+                                    <span className='text-[20px] font-semibold text-gray-700 py-[2px] px-[20px] mb-[10px] rounded-[20px] font-semibold bg-[#eee]'>Backend and Database(Managed & Unmanaged)</span>
                                 </div>
                                 <div className='border-[1px] border-gray-300 rounded-xl  h-[160px]'>
                                     <ul className='px-6 py-4 leading-[2rem] grid grid-cols-2'>
@@ -164,8 +161,8 @@ const Resume = () => {
                         <div className="col-12 px-[15px] flex justify-center text-[#666]">
                             <h3 className="uppercase text-[26px] font-semibold pb-[3rem] mb-0 text-left text-sm-center custom-title ft-wt-600">Experience <span>&amp;</span> Education</h3>
                         </div>
-                        <div className='flex'>
-                            <div className="col-lg-6 px-[15px] w-[50%]">
+                        <div className='md:flex'>
+                            <div className="col-lg-6 md:px-[15px] md:w-[50%]">
                                 <div className="resume-box">
                                     <ul>
                                         <li className='flex gap-5 pr-[20px] pb-[60px] text-[#666]'>
@@ -192,7 +189,7 @@ const Resume = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-6 px-[15px] w-[50%]">
+                            <div className="col-lg-6 px-[15px] md:w-[50%]">
                                 <div className="resume-box">
                                     <ul>
                                         <li className='flex gap-5 pr-[20px] pb-[60px] text-[#666]'>

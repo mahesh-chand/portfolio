@@ -18,19 +18,19 @@ const Home = () => {
     return (
         <Layout>
             <section className="flex">
-                <div className="bg-[#72b626] fixed h-screen w-72"></div>
-                <div className="absolute p-10">
-                    <div className="flex items-center">
+                <div className="md:bg-[#72b626] md:fixed md:h-screen md:w-72"></div>
+                <div className="md:absolute p-10">
+                    <div className="md:flex md:items-center">
                         <div className="rounded-xl">
                             <Image
                                 height={60}
                                 width={470}
                                 src="/images/mahesh1.jpg"
-                                className="rounded-3xl h-[32.9rem] w-[28.4rem]"
+                                className="rounded-3xl md:h-[32.9rem] md:w-[28.4rem] sm:w-full"
                                 alt=""
                             />
                         </div>
-                        <div className="w-[670px] pl-[8rem]">
+                        <div className="md:w-[670px] md:pl-[8rem]">
                             <h1 className="text-[51px] leading-[62px] font-bold relative font-sans text-[#72b626]">-- I&quot;M MAHESH CHAND PRAJAPAT.
                                 <span className="text-[#666]"><br />Full-Stack MERN Developer</span>
                             </h1>

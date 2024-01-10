@@ -52,9 +52,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <section className="flex justify-center">
-        <div className="container px-[76px] flex gap-1 w-full">
-          <div className="w-[33.333%]">
+      <section className="md:flex justify-center">
+        <div className="container px-[76px] md:flex gap-1 w-full">
+          <div className="md:w-[33.333%]">
             <div className="pr-4">
               <h2 className="text-[26px] font-bold text-[#666]">DON&quot;T BE SHY !</h2>
               <p className="text-[#666] text-[16px] py-3">
@@ -82,7 +82,7 @@ const Contact = () => {
               <div>
                 <ul className="flex gap-4 pt-2">
                   <li className="bg-gray-200 rounded-full h-10 w-10 hover:bg-[#72b626]">
-                    <Link href={'/'} legacyBehavior>
+                    <Link href={'/'} legacyBehavior >
                       <a className="text-gray-700 h-full w-full flex items-center justify-center hover:text-white">
                         <FaFacebookF />
                       </a>
@@ -113,9 +113,9 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="w-[66.667%]">
+          <div className="md:w-[66.667%] sm:pt-4">
             <div className="ml-[1px] mr-4 pt-1">
-              <Form form={form} className="grid grid-cols-3 gap-x-9 gap-y-1" onFinish={handleSubmit}>
+              <Form form={form} className="md:grid md:grid-cols-3 md:gap-x-9 gap-y-1" onFinish={handleSubmit}>
                 <Form.Item name="name">
                   <Input placeholder="Your Name" className="h-12 pl-6 rounded-full text-gray-600 text-xl" onChange={handleChange} />
                 </Form.Item>
