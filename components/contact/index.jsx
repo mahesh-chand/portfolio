@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
                 <div className="pl-4">
                   <span className="uppercase text-[17px] text-gray-400">CALL ME</span>
-                  <p className="text-[#666] pt-[1px]">+91 9587586425</p>
+                  <p className="text-[#666] pt-[1px]">+91 7296894140</p>
                 </div>
               </div>
               <div>
