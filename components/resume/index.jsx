@@ -46,7 +46,7 @@ const Resume = () => {
                                     <div className="col-6">
                                         <ul className="font-sans mb-[1rem] text-[16px]">
                                             <li className='mb-[20px]'> <span className="capitalize text-gray-400">Address :</span> <span className="font-semibold text-[#666]">Jaipur</span> </li>
-                                            <li className='mb-[20px]'> <span className="capitalize text-gray-400">phone :</span> <span className="font-semibold text-[#666]">+91 8005605097</span> </li>
+                                            <li className='mb-[20px]'> <span className="capitalize text-gray-400">phone :</span> <span className="font-semibold text-[#666]">+91 7296894140</span> </li>
                                             <li className='mb-[20px]'> <span className="capitalize text-gray-400">Email :</span> <span className="font-semibold text-[#666]">mheshpk@gmail.com</span> </li>
                                             <li className='mb-[20px]'> <span className="capitalize text-gray-400">Skype :</span> <span className="font-semibold text-[#666]">mahesh prajapat</span> </li>
                                             <li className='mb-[20px]'> <span className="capitalize text-gray-400">langages :</span> <span className="font-semibold text-[#666]">Hindi, English</span> </li>
